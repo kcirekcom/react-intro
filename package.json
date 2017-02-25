@@ -4,7 +4,8 @@
   "description": "Basics of React",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "build-watch": "webpack-dev-server --inline --hot"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
   },
   "devDependencies": {
     "eslint": "^3.16.1",
-    "eslint-plugin-react": "^6.10.0"
+    "eslint-plugin-react": "^6.10.0",
+    "webpack-dev-server": "^2.4.1"
   }
 }
